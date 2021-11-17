@@ -5,12 +5,15 @@
 
 html,
 body {
-  height: 100%;
+  height: 100vh;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
 }
 
 .bar {
@@ -23,29 +26,124 @@ nav {
   background-color: #101010;
 }
 
-.hero_image1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/c1.jpeg);
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.hamburger {
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero-image img {
   position: relative;
 }
-.hero_image2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/c2.jpeg);
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.hero_text {
-  text-align: center;
+
+.hero-text svg {
   position: absolute;
-  width: 100%;
-  top: 107%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  z-index: 999;
+  margin-left: 25px; /* Göra på ett annat sätt för att få mitt i */
+}
+
+.hero-text {
+  display: flex;
+  align-items: center;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+}
+
+.text-section {
+  width: 375px;
+  height: 432px;
+}
+
+.interior-text {
+  display: flex;
+  align-items: center;
+  line-height: 1.5rem;
+  margin: 10px;
+}
+
+.parts {
+  position: relative;
+  height: 800px;
+}
+
+.b6 img {
+  position: absolute;
+  top: 40px;
+}
+
+.b7 img {
+  position: absolute;
+  right: 16px;
+  top: 272px;
+}
+.b8 img {
+  position: absolute;
+  top: 499px;
+  left: 24px;
+}
+
+.b6-text h2 {
+  position: absolute;
+  right: 46px;
+  top: 40px;
+  writing-mode: vertical-rl;
+}
+
+.b7-text h2 {
+  position: absolute;
+  left: 30px;
+  top: 328px;
+  writing-mode: vertical-lr;
+  transform: scale(-1);
+}
+
+.b8-text h2 {
+  position: absolute;
+  right: 22px;
+  top: 613px;
+  writing-mode: vertical-rl;
+}
+
+.sign-up-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  width: 375px;
+  height: 272px;
+}
+
+input[type="email"] {
+  border: 0px;
+  border-radius: 0;
+  background-color: lightgray;
+  width: 304px;
+  height: 32px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  border: 0;
+  border-radius: 0;
+  background-color: lightgray;
+  width: 111px;
+  height: 44px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
