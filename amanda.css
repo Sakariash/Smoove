@@ -57,13 +57,10 @@ nav {
 }
 
 .text-section {
-  display: flex;
-  justify-content: center;
-}
-
-.text-section {
   width: 375px;
   height: 432px;
+  display: flex;
+  justify-content: center;
 }
 
 .interior-text {
@@ -71,6 +68,12 @@ nav {
   align-items: center;
   line-height: 1.5rem;
   margin: 10px;
+  text-align: center;
+}
+
+.interior-text p {
+  display: flex;
+  align-items: center;
 }
 
 .parts {
