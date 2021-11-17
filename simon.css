@@ -99,6 +99,7 @@ svg {
   width: 600px;
   background-color: violet;
   margin-left: 780px;
+  margin-top: 80px;
   position: absolute;
   z-index: 2;
 }
@@ -109,6 +110,13 @@ svg {
   z-index: 1;
   margin-top: 550px;
   margin-left: 400px;
+}
+.top {
+}
+.middle {
+  transform: rotate(90deg);
+}
+.bottom {
 }
 
 /* .b3 {
