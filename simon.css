@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+body {
+  display: flex;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+section {
+  height: 100vh;
+}
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 999;
+}
+li {
+  list-style: none;
+  padding: 24px 32px 24px 32px;
+}
+.burger {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  height: 4px;
+  width: 40px;
+  margin-bottom: 6px;
+  background-color: #5a666e;
+}
+.hero-background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+svg {
+  position: absolute;
+  z-index: 999;
+}
+.first-space {
+  display: flex;
+  height: 300px;
+}
+.first-text {
+  width: 30%;
+  padding: 24px 32px 24px 32px;
+}
+.b3 {
+  width: 70%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.second-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.b4-interior {
+  width: 70%;
+  height: 40%;
+}
+.second-text {
+  width: 30%;
+  height: 40%;
+  padding: 24px 32px 24px 32px;
+}
+.b5-up {
+  height: 60%;
+  width: 100%;
+}
+.overlap-picture {
+  margin: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.b6 {
+  height: 600px;
+  width: 600px;
+  background-color: tomato;
+  position: absolute;
+  z-index: -1;
+}
+.b7 {
+  height: 600px;
+  width: 600px;
+  background-color: violet;
+  margin-left: 780px;
+  position: absolute;
+  z-index: 2;
+}
+.b8 {
+  height: 600px;
+  width: 600px;
+  background-color: turquoise;
+  z-index: 1;
+  margin-top: 550px;
+  margin-left: 400px;
+}
+
+/* .b3 {
+  background-color: tan;
+  width: 100px;
+  height: 100px;
+}
+.b4 {
+  background-color: rosybrown;
+  width: 100px;
+  height: 100px;
+}
+.b5 {
+  background-color: royalblue;
+  width: 100px;
+  height: 100px;
+}
+.b6 {
+  background-color: sandybrown;
+  width: 100px;
+  height: 100px;
+}
+.b7 {
+  background-color: seashell;
+  width: 100px;
+  height: 100px;
+}
+.b8 {
+  background-color: sienna;
+  width: 100px;
+  height: 100px;
+}
+.b9 {
+  background-color: sienna;
+  width: 100px;
+  height: 100px;
+}
+.b10 {
+  background-color: sienna;
+  width: 100px;
+  height: 100px;
+}
+.b11 {
+  background-color: sienna;
+  width: 100px;
+  height: 100px;
+} */
