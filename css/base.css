@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  /* Font-sizes */
+  --h1: 68px;
+  --h2: 42px;
+  --h3: 28px;
+  --h4: 16px;
+  --p_large: 18px;
+  --p: 16px;
+  --p_small: 14px;
+  --caption: 12px;
+}
