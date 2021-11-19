@@ -1,0 +1,37 @@
+.features_container {
+  width: 100%;
+  min-height: 850px;
+}
+
+.feature_img1 img,
+.feature_img2 img {
+  width: 100%;
+  transform: scale(1);
+  object-fit: cover;
+}
+
+.feature_img1 img {
+  min-height: 375px;
+}
+
+.feature_text {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.feature_text h3 {
+  font-size: var(--h3);
+}
+
+.feature_text p {
+  font-size: var(--p_large);
+  margin-top: 16px;
+  line-height: 32px;
+}
+.feature_img2 img {
+  min-height: 600px;
+}
