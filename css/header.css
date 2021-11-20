@@ -35,13 +35,13 @@ svg {
   width: 44px;
   background-color: #5e5e5e;
 }
-.flexContainer {
+.flex_container {
   position: relative;
   display: flex;
   width: 100%;
   height: 100vh;
 }
-.vadsomhelst {
+.content_container {
   position: relative;
   transform: translate(-50%, 0);
   top: 293px;
@@ -75,4 +75,44 @@ svg {
   width: 100%;
   object-fit: cover;
   object-position: right;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    height: 92px;
+  }
+  .logo {
+    margin-left: 32px;
+    margin-top: 24px;
+  }
+  svg {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+  }
+  .hamburger {
+    margin-top: 24px;
+    margin-right: 32px;
+  }
+  .company_name {
+    top: -140px;
+    line-height: 85px;
+    font-size: 85px;
+  }
+  .content_container {
+    top: 322px;
+  }
+  .arrow {
+    right: 77px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .company_name {
+    top: -172px;
+    line-height: 120px;
+    font-size: 120px;
+  }
+}
+.arrow {
+  right: 179px;
 }
