@@ -40,6 +40,7 @@ footer {
 .social_media {
   padding-top: 20px;
   justify-content: space-evenly;
+  padding-left: 40px;
 }
 
 .footer_text h3 {
@@ -47,8 +48,8 @@ footer {
   font-size: var(--h3);
   color: var(--grey300);
   position: absolute;
-  top: 4510px;
-  padding-left: 24px;
+  bottom: 62px;
+  left: 24px;
 }
 
 .bottom_footer {
@@ -56,6 +57,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 15px;
+  position: relative;
 }
 
 .copyright,
@@ -73,6 +75,7 @@ footer {
   font-size: var(--p);
   font-family: "aileron_regular";
   color: var(--grey300);
+  padding-right: 50px;
 }
 
 .arrow_footer {
@@ -118,8 +121,9 @@ footer {
   }
 
   .footer_text h3 {
-    top: 6345px;
+    font-size: var(--h2);
     left: 147px;
+    bottom: 55px;
   }
 
   .bottom_footer {
@@ -136,6 +140,6 @@ footer {
   }
 
   .copyright_text {
-    padding-right: 500px;
+    padding-right: 550px;
   }
 }
