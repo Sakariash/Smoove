@@ -4,6 +4,8 @@ Tid:<br>
 A:<br>
 Tis 15/11 4 timmar<br>
 Ons 16/11 2.5 timmar<br>
+Fre 19/11 4 timmar <br>
+Mån 22/11 3 timmar <br>
 <br>
 S:<br>
 Ons 17/11: 3 h<br>

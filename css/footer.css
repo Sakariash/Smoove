@@ -46,9 +46,9 @@ footer {
 .footer_text h3 {
   font-family: "aileron_semibold";
   font-size: var(--h3);
-  color: var(--grey300);
+  color: var(--grey200);
   position: absolute;
-  bottom: 62px;
+  bottom: 60px;
   left: 24px;
 }
 
@@ -58,6 +58,10 @@ footer {
   justify-content: space-around;
   margin-top: 15px;
   position: relative;
+}
+
+hr {
+  border: 2px solid #5e5e5e;
 }
 
 .copyright,
@@ -123,7 +127,7 @@ footer {
   .footer_text h3 {
     font-size: var(--h2);
     left: 147px;
-    bottom: 55px;
+    bottom: 50px;
   }
 
   .bottom_footer {
