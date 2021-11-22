@@ -1,5 +1,5 @@
 .sign_up_container {
-  height: 100vh;
+  height: 1018px;
   width: 100%;
   color: white;
 }
@@ -17,6 +17,7 @@
   padding-top: 52px;
 }
 .sign_up_header {
+  font-family: "aileron_semibold";
   width: 289px;
   height: 64px;
   left: 0px;
@@ -29,6 +30,7 @@
   margin-left: 40px;
 }
 .sign_up_text {
+  font-family: "aileron_light";
   width: 289px;
   height: 120px;
   font-style: normal;
@@ -67,10 +69,10 @@ form input {
 .b7_container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
+  object-position: top;
 }
 @media only screen and (min-width: 768px) {
-  /* KLAR */
   .sign_up_flex {
     height: 450px;
     padding-top: 65px;
@@ -83,7 +85,6 @@ form input {
   .sign_up_header {
     width: 399px;
     height: 96px;
-    font-size: 42px;
     line-height: 48px;
     margin-left: 200px;
     letter-spacing: -0.015em;
@@ -112,8 +113,12 @@ form input {
   .sign_up_flex {
     height: 420px;
   }
+  .sign_up_header {
+    margin-left: 299px;
+  }
   .sign_up_text {
     width: 446px;
+    margin-left: 299px;
   }
   .form {
     width: 442px;
@@ -134,14 +139,11 @@ form input {
     height: 248px;
   }
   .sign_up_header {
-    width: 399px;
+    width: 450px;
     height: 96px;
     left: 0px;
-    top: 8px;
     font-style: normal;
     font-weight: bold;
-    font-size: 42px;
-    line-height: 48px;
     letter-spacing: -0.015em;
     margin-left: 499px;
   }
@@ -182,5 +184,6 @@ form input {
   }
   .b7_container img {
     object-fit: cover;
+    object-position: bottom;
   }
 }
