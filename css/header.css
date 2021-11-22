@@ -18,7 +18,7 @@ li {
   margin-left: 22px;
   margin-top: 20px;
 }
-svg {
+.header_svg {
   position: absolute;
 }
 .hamburger {
@@ -85,7 +85,7 @@ svg {
     margin-left: 32px;
     margin-top: 24px;
   }
-  svg {
+  .header_svg {
     position: absolute;
     width: 130px;
     height: 24px;

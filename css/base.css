@@ -5,6 +5,12 @@
 }
 
 :root {
+  /* Colors */
+  --primary200: #f7cece;
+  --primary100: #f8d7d7;
+  --secondary: #a5ddde;
+  --grey200: #c9c9c9;
+
   /* Font-sizes */
   --h1: 68px;
   --h2: 42px;
@@ -14,4 +20,19 @@
   --p: 16px;
   --p_small: 14px;
   --caption: 12px;
+}
+
+@font-face {
+  font-family: "aileron_light";
+  src: url(../fonts/Aileron-Light.woff2);
+}
+
+@font-face {
+  font-family: "aileron_regular";
+  src: url(../fonts/Aileron-Regular.woff2);
+}
+
+@font-face {
+  font-family: "aileron_semibold";
+  src: url(../fonts/Aileron-SemiBold.woff2);
 }
