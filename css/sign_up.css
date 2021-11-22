@@ -1,39 +1,52 @@
 .sign_up_container {
   height: 100vh;
   width: 100%;
-  /* background-color: black; */
+  color: white;
 }
-.sign_up_background {
+.sign_up_flex {
   width: 100%;
   height: 388px;
-  background: black;
+  padding-top: 52px;
+  padding-bottom: 64px;
+  background: #1c1c1c;
+}
+.sign_up_top_content {
+  width: 289px;
+  height: 200px;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  padding-top: 52px;
 }
-.sign_up_content {
-  color: white;
-  width: 286px;
-  height: 168px;
-}
-.sign_up_content h3 {
-  font-family: sans-serif;
-  font-size: 28px;
+.sign_up_header {
+  width: 289px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
   letter-spacing: -0.005em;
-  margin-bottom: 16px;
-  margin-top: 28px;
+  margin-left: 40px;
 }
-
+.sign_up_text {
+  width: 289px;
+  height: 120px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 40px;
+  margin-top: 16px;
+}
 .form {
   position: relative;
+  width: 305px;
+  margin-left: 32px;
+  margin-top: 24px;
 }
 form input {
   height: 48px;
-  width: 305px;
-  font-family: Aileron;
+  width: 100%;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -43,9 +56,10 @@ form input {
 }
 .right_arrow {
   position: absolute;
-  right: 32px;
   top: 8px;
+  right: 16px;
 }
+
 .b7_container {
   height: 376px;
   width: 100%;
@@ -53,67 +67,120 @@ form input {
 .b7_container img {
   width: 100%;
   height: 100%;
-  object-position: center;
   object-fit: cover;
 }
-
 @media only screen and (min-width: 768px) {
-  .sign_up_content {
-    width: 305px;
-    height: 200px;
-    margin-top: 72px;
+  /* KLAR */
+  .sign_up_flex {
+    height: 450px;
+    padding-top: 65px;
+    padding-bottom: 67px;
   }
-  .sign_up_background {
-    width: 100%;
-    height: 468px;
+  .sign_up_top_content {
+    width: 399px;
+    height: 248px;
   }
-  .sign_up {
-    width: 305px;
-    padding: 0px;
-    margin: 0px;
-    padding-bottom: 44px;
+  .sign_up_header {
+    width: 399px;
+    height: 96px;
+    font-size: 42px;
+    line-height: 48px;
+    margin-left: 200px;
+    letter-spacing: -0.015em;
+  }
+  .sign_up_text {
+    width: 399px;
+    height: 128px;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 200px;
+    margin-top: 24px;
+  }
+  .form {
+    width: 399px;
+    margin-left: 200px;
+    margin-top: 16px;
   }
   form input {
-    height: 48px;
-    width: 305px;
+    font-size: 18px;
+  }
+  .b7_container {
+    height: 574px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  .sign_up_container {
-    height: 568px;
+  .sign_up_flex {
+    height: 420px;
   }
-  .sign_up_background {
-    width: 100%;
-    height: 568px;
-  }
-  .sign_up_content {
-    font-family: Aileron;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0em;
-    width: 446px;
-    height: 212px;
-    margin-top: 132px;
-  }
-  .sign_up_content h3 {
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -0.015em;
-    text-align: center;
-    margin-top: 0px;
-  }
-  .sign_up {
+  .sign_up_text {
     width: 446px;
   }
-  form input {
-    width: 422px;
+  .form {
+    width: 442px;
+    margin-left: 299px;
   }
   .b7_container {
-    height: 450px;
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .sign_up_flex {
+    height: 568px;
+    padding-top: 130px;
+    padding-bottom: 134px;
+  }
+  .sign_up_top_content {
+    width: 446px;
+    height: 248px;
+  }
+  .sign_up_header {
+    width: 399px;
+    height: 96px;
+    left: 0px;
+    top: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    margin-left: 499px;
+  }
+  .sign_up_text {
+    width: 446px;
+    height: 128px;
+    left: 0px;
+    top: 128px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 499px;
+    margin-top: 24px;
+  }
+  .form {
+    position: relative;
+    margin-left: 499px;
+    margin-top: 8px;
+    width: 442px;
+    height: 48px;
+    color: #797979;
+    border: 1px solid #000000;
+  }
+  form input {
+    height: 48px;
     width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    padding-left: 16px;
+  }
+
+  .b7_container {
+    height: 450px;
+  }
+  .b7_container img {
+    object-fit: cover;
   }
 }
