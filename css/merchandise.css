@@ -1,0 +1,13 @@
+.merchandise_container {
+  height: 100vh;
+  width: 100%;
+}
+.merch {
+  height: 100%;
+  width: 100%;
+}
+.merch img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
