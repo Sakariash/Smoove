@@ -1,6 +1,6 @@
 # Smoove
 
-Tid:
+Tid:<br>
 A:<br>
 Tis 15/11 4 timmar<br>
 Ons 16/11 2.5 timmar<br>
