@@ -1,0 +1,141 @@
+footer {
+  width: 100%;
+  background-color: black;
+  min-height: 400px;
+  color: white;
+}
+
+.footer_content {
+  min-height: 305px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.content_links,
+.social_media {
+  display: flex;
+  flex: 50%;
+}
+
+.footer_list,
+.social_media_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 0;
+}
+
+.content_links {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.footer_list li a {
+  text-decoration: none;
+  color: var(--primary200);
+  font-size: var(--h4);
+  font-family: "aileron_regular";
+}
+
+.social_media {
+  padding-top: 20px;
+  justify-content: space-evenly;
+}
+
+.footer_text h3 {
+  font-family: "aileron_semibold";
+  font-size: var(--h3);
+  color: var(--grey300);
+  position: absolute;
+  top: 4510px;
+  padding-left: 24px;
+}
+
+.bottom_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.copyright,
+.copyright_text {
+  padding-top: 6px;
+}
+
+.copyright {
+  font-size: var(--p_small);
+  font-family: "aileron_regular";
+  color: var(--grey300);
+}
+
+.copyright_text {
+  font-size: var(--p);
+  font-family: "aileron_regular";
+  color: var(--grey300);
+}
+
+.arrow_footer {
+  margin-bottom: 15px;
+}
+
+.arrow_footer button {
+  background-color: black;
+  border: none;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+  footer {
+    min-height: 300px;
+  }
+
+  .footer_content {
+    min-height: 200px;
+  }
+  .content_links {
+    justify-content: flex-end;
+    flex: 60%;
+    padding-top: 27px;
+  }
+
+  .footer_list {
+    justify-content: space-between;
+  }
+
+  .social_media {
+    padding-left: 130px;
+    flex: 40%;
+    padding-top: 27px;
+  }
+
+  .social_media_list {
+    flex-direction: row;
+  }
+
+  .social_media_list a {
+    margin: 20px;
+  }
+
+  .footer_text h3 {
+    top: 6345px;
+    left: 147px;
+  }
+
+  .bottom_footer {
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+
+  .arrow_footer {
+    padding-right: 50px;
+  }
+
+  .copyright {
+    padding-left: 20px;
+  }
+
+  .copyright_text {
+    padding-right: 500px;
+  }
+}
