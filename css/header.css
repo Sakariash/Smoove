@@ -20,6 +20,7 @@ li {
 }
 .header_svg {
   position: absolute;
+  transition: all 0.9s ease-in-out;
 }
 .hamburger {
   display: flex;
@@ -29,8 +30,10 @@ li {
   width: 44px;
   margin-top: 16px;
   margin-right: 16px;
+  cursor: pointer;
 }
 .bar {
+  transition: all 0.9s ease-in-out;
   height: 2px;
   width: 44px;
   background-color: #5e5e5e;
@@ -92,10 +95,12 @@ li {
     position: absolute;
     width: 130px;
     height: 24px;
+    transition: all 0.9s ease-in-out;
   }
   .hamburger {
     margin-top: 24px;
     margin-right: 32px;
+    cursor: pointer;
   }
   .company_name {
     top: -140px;
