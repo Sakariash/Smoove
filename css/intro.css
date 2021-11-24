@@ -1,4 +1,4 @@
-.intro_container {
+#intro_container {
   display: flex;
   align-items: center;
   width: 100%;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .intro_container {
+  #intro_container {
     min-height: 510px;
     flex-direction: row;
   }
