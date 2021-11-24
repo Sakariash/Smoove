@@ -112,8 +112,8 @@ li {
 @media only screen and (min-width: 1024px) {
   .company_name {
     top: -172px;
-    line-height: 120px;
-    font-size: 120px;
+    line-height: 110px;
+    font-size: 110px;
   }
 }
 .arrow {
