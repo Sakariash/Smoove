@@ -4,11 +4,18 @@
   color: white;
 }
 .sign_up_flex {
+  position: relative;
   width: 100%;
   height: 388px;
   padding-top: 52px;
   padding-bottom: 64px;
   background: #1c1c1c;
+}
+.grid_2 img {
+  position: absolute;
+  height: 388px;
+  top: 0px;
+  right: 0px;
 }
 .sign_up_top_content {
   width: 289px;
@@ -78,6 +85,12 @@ form input {
     padding-top: 65px;
     padding-bottom: 67px;
   }
+  .grid_2 img {
+    position: absolute;
+    height: 450px;
+    top: 0px;
+    right: 0px;
+  }
   .sign_up_top_content {
     width: 399px;
     height: 248px;
@@ -86,7 +99,7 @@ form input {
     width: 399px;
     height: 96px;
     line-height: 48px;
-    margin-left: 200px;
+    margin-left: 160px;
     letter-spacing: -0.015em;
   }
   .sign_up_text {
@@ -94,12 +107,12 @@ form input {
     height: 128px;
     font-size: 18px;
     line-height: 32px;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: 24px;
   }
   .form {
     width: 399px;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: 16px;
   }
   form input {
@@ -110,6 +123,12 @@ form input {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .grid_2 img {
+    position: absolute;
+    height: 420px;
+    top: 0px;
+    right: 0px;
+  }
   .sign_up_flex {
     height: 420px;
   }
@@ -133,6 +152,12 @@ form input {
     height: 568px;
     padding-top: 130px;
     padding-bottom: 134px;
+  }
+  .grid_2 img {
+    position: absolute;
+    height: 568px;
+    top: 0px;
+    right: 0px;
   }
   .sign_up_top_content {
     width: 446px;

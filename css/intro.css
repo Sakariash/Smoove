@@ -4,12 +4,17 @@
   width: 100%;
   min-height: 400px;
 }
-
+.intro_flex {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
 .intro_text {
   min-height: 200px;
   display: flex;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   padding: 40px;
 }
 
@@ -17,8 +22,35 @@
   font-size: var(--h3);
   font-family: "aileron_semibold";
 }
+.grid_1 img {
+  position: absolute;
+  left: 0px;
+}
+@media screen and (min-width: 1020px) {
+  .intro_text {
+    width: 34.5%;
+  }
+  .grid_container {
+    position: absolute;
+    height: 100%;
+    width: 609px;
+    right: 0;
+  }
+  .grid_1 img {
+    height: 400px;
+  }
+  .intro_text h3 {
+    font-size: var(--h2);
+    line-height: 48px;
+  }
+  .intro_text {
+    text-align: start;
+    padding: 10px;
+    margin-left: 150px;
+  }
+}
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   #intro_container {
     min-height: 510px;
     flex-direction: row;
@@ -39,4 +71,4 @@
     font-size: var(--h2);
     line-height: 48px;
   }
-}
+} */
