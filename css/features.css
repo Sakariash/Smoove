@@ -15,7 +15,7 @@
 }
 
 .feature_text {
-  min-height: 400px;
+  min-height: 344px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@
   min-height: 378px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .special_grid {
     display: flex;
   }
@@ -56,8 +56,13 @@
     display: flex;
     flex: 30%;
     min-height: 450px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .feature_text p {
+    line-height: 28px;
+    font-family: "aileron_regular";
   }
 
   .feature_text h3 {
