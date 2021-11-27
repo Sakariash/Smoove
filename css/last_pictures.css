@@ -1,0 +1,29 @@
+.last_pictures_container {
+  width: 100%;
+}
+
+.last_picture img,
+.animation video {
+  width: 100%;
+  transform: scale(1);
+}
+
+.last_picture {
+  min-height: 358px;
+}
+
+@media screen and (min-width: 1440px) {
+  .last_pictures_container {
+    display: flex;
+  }
+
+  .last_picture {
+    display: flex;
+    flex: 40%;
+  }
+
+  .animation {
+    display: flex;
+    flex: 60%;
+  }
+}

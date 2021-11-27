@@ -41,9 +41,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  /* .intro_text {
-    width: 34.5%;
-  } */
   .grid_container {
     position: absolute;
     height: 100%;
@@ -54,6 +51,7 @@
     object-fit: cover;
     position: relative;
   }
+
   .intro_text h3 {
     font-size: var(--h2);
     line-height: 48px;
