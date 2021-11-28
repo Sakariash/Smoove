@@ -20,7 +20,7 @@
 .nav_menu.active {
   right: 0;
   padding-top: 133px;
-  width: 477px;
+  width: 100%;
 }
 .navbar {
   position: absolute;
@@ -41,11 +41,11 @@
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: translate(1px, 12px) rotate(45deg);
+  transform: translate(1px, 8px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
-  transform: translate(-2px, -10px) rotate(-45deg);
+  transform: translate(1px, -8px) rotate(-45deg);
 }
 
 .bar {
@@ -193,10 +193,23 @@ li {
     /* transition: all 0.9s ease-in-out; */
   }
   /* Krysset på navbaren blir inte rätt eftersom man ändrar margin och height */
+  .nav_menu.active {
+    right: 0;
+    padding-top: 133px;
+    width: 447px;
+  }
+
   .bar {
     width: 50px;
     height: 3px;
     margin: 8px;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translate(1px, 12px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translate(-2px, -10px) rotate(-45deg);
   }
   /* .hamburger {
     margin-top: 24px;
