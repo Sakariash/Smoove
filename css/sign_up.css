@@ -1,5 +1,5 @@
 .sign_up_container {
-  height: 1018px;
+  min-height: 750px;
   width: 100%;
   color: white;
 }
@@ -79,6 +79,10 @@ form input {
   object-fit: fill;
   object-position: top;
 }
+
+.seven {
+  display: none;
+}
 @media only screen and (min-width: 768px) {
   .sign_up_flex {
     height: 450px;
@@ -144,7 +148,15 @@ form input {
     margin-left: 299px;
   }
   .b7_container {
-    height: 350px;
+    height: 400px;
+  }
+
+  .seven {
+    display: block;
+  }
+
+  .seven_mobile {
+    display: none;
   }
 }
 @media only screen and (min-width: 1224px) {
