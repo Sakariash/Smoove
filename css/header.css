@@ -134,21 +134,6 @@ li {
   height: 50%;
 }
 
-/* company_name ska bytas ut mot bild logga*/
-/* .company_name {
-  position: absolute;
-  transform: translate(-50%, 0);
-  left: 50%;
-  top: -75px;
-  line-height: 40px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 40px;
-  color: white;
-  font-weight: bolder;
-  -webkit-text-stroke: 1px black;
-  z-index: 1;
-} */
 .arrow {
   position: absolute;
   /* transform: translate(-50%, 0); */
@@ -211,16 +196,7 @@ li {
   .hamburger.active .bar:nth-child(3) {
     transform: translate(-2px, -10px) rotate(-45deg);
   }
-  /* .hamburger {
-    margin-top: 24px;
-    margin-right: 32px;
-    cursor: pointer;
-  } */
-  /* .company_name {
-    top: -140px;
-    line-height: 85px;
-    font-size: 85px;
-  } */
+
   .content_container {
     /* top: 322px; */
   }
@@ -229,9 +205,4 @@ li {
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* .company_name {
-    top: -172px;
-    line-height: 110px;
-    font-size: 110px;
-  } */
 }
