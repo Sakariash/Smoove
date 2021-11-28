@@ -3,21 +3,45 @@
   width: 100%;
 }
 .merch {
+  position: relative;
   height: 100%;
   width: 100%;
 }
 .eight_mobile {
+  position: relative;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 .eight {
   display: none;
 }
-
+.merch_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+  bottom: 70px;
+  font-family: "aileron_semibold";
+}
+.merch_text h2 {
+  font-size: 44px;
+}
+.merch_text p {
+  font-family: "aileron_light";
+}
+@media screen and (min-width: 768px) {
+  .merch_text {
+    width: 270px;
+    bottom: 2px;
+    font-family: "aileron_semibold";
+  }
+}
 @media screen and (min-width: 1024px) {
   .eight {
+    position: relative;
     display: block;
     height: 100%;
     width: 100%;
@@ -26,5 +50,11 @@
 
   .eight_mobile {
     display: none;
+  }
+  .merch_text {
+    width: 270px;
+    bottom: 32px;
+    left: 56px;
+    font-family: "aileron_semibold";
   }
 }
