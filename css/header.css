@@ -19,12 +19,13 @@
 
 .nav_menu.active {
   right: 0;
-  padding-top: 130px;
+  padding-top: 133px;
+  width: 477px;
 }
 .navbar {
   position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 .hamburger {
@@ -59,8 +60,8 @@
 
 .nav_item {
   list-style: none;
-  padding-right: 230px;
-  padding-bottom: 48px;
+  padding: 0px 0px 48px 50px;
+  align-self: flex-start;
 }
 
 .nav_link {
@@ -71,6 +72,9 @@
 
 .nav_item a {
   text-decoration: none;
+}
+.nav_item :hover {
+  color: orange;
 }
 
 /* #navbar {
