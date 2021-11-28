@@ -10,8 +10,12 @@
   /* object-fit: cover; */
 }
 
-.feature_img1 img {
+.two_mobile {
   min-height: 375px;
+}
+
+.two {
+  display: none;
 }
 
 .feature_text {
@@ -71,5 +75,15 @@
 
   .feature_img2 img {
     max-height: 664px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .two_mobile {
+    display: none;
+  }
+
+  .two {
+    display: block;
   }
 }
