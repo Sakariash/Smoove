@@ -141,15 +141,15 @@ li {
   width: 36px;
   z-index: 2;
 }
-.one_mobile {
+.animation {
   position: absolute;
   height: 100%;
   width: 100%;
-  /* object-fit; */
 }
 
-.one {
-  display: none;
+.animation video {
+  height: 100%;
+  object-fit: cover;
 }
 
 @media only screen and (min-width: 768px) {
@@ -160,17 +160,6 @@ li {
     margin-left: 32px;
     margin-top: 24px;
   } */
-
-  .one {
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-  }
-
-  .one_mobile {
-    display: none;
-  }
   .header_svg {
     position: absolute;
     width: 130px;
