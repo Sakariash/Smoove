@@ -8,7 +8,7 @@
   text-align: center;
   display: flex;
   align-items: center;
-  transition: 0.3s;
+  transition: 0.7s;
   box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   background-color: var(--grey900);
 }
@@ -53,7 +53,7 @@
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3 ease-in-out;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.9 ease-in-out;
   background-color: #5e5e5e;
 }
 
@@ -204,9 +204,9 @@ li {
     line-height: 85px;
     font-size: 85px;
   } */
-  .content_container {
-    /* top: 322px; */
-  }
+  /* .content_container {
+    top: 322px;
+  } */
   .arrow {
     right: 77px;
   }
