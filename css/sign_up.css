@@ -63,12 +63,14 @@ form input {
   letter-spacing: -0.005em;
   padding-left: 16px;
 }
+.form_svg {
+  cursor: pointer;
+}
 .right_arrow {
   position: absolute;
   top: 8px;
   right: 16px;
 }
-
 .b7_container {
   height: 376px;
   width: 100%;

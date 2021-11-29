@@ -44,7 +44,9 @@
   .grid_container {
     position: absolute;
     height: 100%;
+    width: 50%;
     right: 0;
+    overflow: hidden;
   }
   .grid_1 img {
     height: 400px;
