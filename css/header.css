@@ -69,6 +69,10 @@
   font-family: "aileron_regular";
   color: var(--grey300);
 }
+ul picture {
+  padding-top: 120px;
+  padding-right: 70%;
+}
 
 .nav_item a {
   text-decoration: none;
@@ -135,4 +139,10 @@
   }
 }
 @media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  ul picture {
+    padding-right: 70%;
+  }
 }
