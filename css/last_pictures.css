@@ -6,6 +6,7 @@
   width: 100%;
   transform: scale(1);
   max-height: 100vh;
+  display: block;
 }
 
 .last_picture {
