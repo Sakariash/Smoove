@@ -99,7 +99,7 @@ ul picture {
 .arrow {
   position: absolute;
   top: 90%;
-  left: 90%;
+  left: 80%;
   width: 36px;
   right: 20px;
   bottom: 15px;
@@ -124,7 +124,7 @@ ul picture {
     width: 130px;
     height: 24px;
   }
-  /* Krysset på navbaren blir inte rätt eftersom man ändrar margin och height */
+
   .nav_menu.active {
     right: 0;
     padding-top: 133px;
@@ -145,15 +145,14 @@ ul picture {
   }
 
   .arrow {
-    right: 35px;
-    bottom: 15px;
+    left: 90%;
   }
 }
 @media only screen and (min-width: 1024px) {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* ul picture {
-    padding-right: 70%;
-  } */
+  .arrow {
+    top: 92%;
+  }
 }
