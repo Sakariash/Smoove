@@ -11,6 +11,25 @@
 .last_picture {
   min-height: 358px;
 }
+.ninth_mobile {
+  display: block;
+}
+
+.ninth {
+  display: none;
+}
+
+.ninth_mobile {
+  display: block;
+}
+@media screen and (min-width: 1440px) {
+  .ninth {
+    display: block;
+  }
+  .ninth_mobile {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 1440px) {
   .last_pictures_container {
