@@ -72,12 +72,11 @@ form input {
   right: 16px;
 }
 .b7_container {
-  height: 376px;
+  height: 350px;
   width: 100%;
 }
 .b7_container img {
   width: 100%;
-  height: 100%;
   object-fit: fill;
   object-position: top;
 }

@@ -8,6 +8,8 @@ Fre 19/11 4 timmar <br>
 Mån 22/11 3 timmar <br>
 Tors 25/11 4 timmar <br>
 Sön 28/11 4 timmar <br>
+Mån 29/11 2 timmar <br>
+Tis 30/11 3 timmar <br>
 <br>
 S:<br>
 Ons 17/11: 3 h<br>
