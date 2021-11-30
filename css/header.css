@@ -92,9 +92,6 @@ ul picture {
   top: 90%;
   left: 90%;
   width: 36px;
-  /* transform: translate(-50%, 0); */
-  /* left: 80%;
-  width: 36px; */
   right: 20px;
   bottom: 15px;
   z-index: 2;
@@ -108,6 +105,8 @@ ul picture {
 .animation video {
   height: 100%;
   object-fit: cover;
+  width: 100%;
+  transform: scale(1);
 }
 
 @media only screen and (min-width: 768px) {

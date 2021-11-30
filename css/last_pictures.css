@@ -2,8 +2,7 @@
   width: 100%;
 }
 
-.last_picture img,
-.animation video {
+.last_picture img {
   width: 100%;
   transform: scale(1);
 }
