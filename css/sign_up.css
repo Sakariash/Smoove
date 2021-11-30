@@ -7,8 +7,8 @@
   position: relative;
   width: 100%;
   height: 388px;
-  padding-top: 52px;
-  padding-bottom: 64px;
+  padding-top: 42px;
+  padding-bottom: 54px;
   background: #1c1c1c;
 }
 .grid_2 img {
@@ -36,7 +36,7 @@
   letter-spacing: -0.005em;
   margin-left: 40px;
 }
-.sign_up_header .sign_up_text {
+.sign_up_text {
   font-family: "aileron_light";
   width: 289px;
   height: 120px;
@@ -45,7 +45,7 @@
   font-size: 16px;
   line-height: 24px;
   margin-left: 40px;
-  margin-top: 16px;
+  margin-top: 45px;
 }
 .form {
   position: relative;
