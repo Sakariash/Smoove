@@ -69,6 +69,10 @@
   font-family: "aileron_regular";
   color: var(--grey300);
 }
+ul picture {
+  padding-top: 120px;
+  padding-right: 70%;
+}
 
 .nav_item a {
   text-decoration: none;
@@ -77,68 +81,22 @@
   color: orange;
 }
 
-/* #navbar {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 56px;
-  z-index: 1;
-} */
-
-/* ul {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-li {
-  list-style: none;
-  padding: 0px;
-}
-.logo {
-  margin-left: 22px;
-  margin-top: 20px;
-} */
-/* .header_svg {
-  position: absolute;
-  transition: all 0.9s ease-in-out;
-} */
-/* .hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 30px;
-  width: 44px;
-  margin-top: 16px;
-  margin-right: 16px;
-  cursor: pointer;
-}
-.bar {
-  transition: all 0.9s ease-in-out;
-  height: 2px;
-  width: 44px;
-  background-color: #5e5e5e;
-} */
-.flex_container {
+#flex_container {
   position: relative;
   display: flex;
   width: 100%;
   height: 100vh;
 }
-/* .content_container {
-  position: relative;
-  transform: translate(-50%, 0);
-  top: 293px;
-  left: 50%;
-  z-index: 1;
-  width: 100%;
-  height: 50%;
-} */
-
 .arrow {
   position: absolute;
   top: 90%;
   left: 90%;
   width: 36px;
+  /* transform: translate(-50%, 0); */
+  /* left: 80%;
+  width: 36px; */
+  right: 20px;
+  bottom: 15px;
   z-index: 2;
 }
 .animation {
@@ -153,18 +111,10 @@ li {
 }
 
 @media only screen and (min-width: 768px) {
-  /* #navbar {
-    height: 92px;
-  }
-  .logo {
-    margin-left: 32px;
-    margin-top: 24px;
-  } */
   .header_svg {
     position: absolute;
     width: 130px;
     height: 24px;
-    /* transition: all 0.9s ease-in-out; */
   }
   /* Krysset på navbaren blir inte rätt eftersom man ändrar margin och height */
   .nav_menu.active {
@@ -178,19 +128,6 @@ li {
     height: 3px;
     margin: 8px;
   }
-  /* .hamburger {
-    margin-top: 24px;
-    margin-right: 32px;
-    cursor: pointer;
-  } */
-  /* .company_name {
-    top: -140px;
-    line-height: 85px;
-    font-size: 85px;
-  } */
-  /* .content_container {
-    top: 322px;
-  } */
   .hamburger.active .bar:nth-child(1) {
     transform: translate(1px, 12px) rotate(45deg);
   }
@@ -200,8 +137,15 @@ li {
   }
 
   .arrow {
-    right: 77px;
+    right: 35px;
+    bottom: 15px;
   }
 }
 @media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  ul picture {
+    padding-right: 70%;
+  }
 }

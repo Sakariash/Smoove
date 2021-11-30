@@ -36,7 +36,7 @@
   letter-spacing: -0.005em;
   margin-left: 40px;
 }
-.sign_up_text {
+.sign_up_header .sign_up_text {
   font-family: "aileron_light";
   width: 289px;
   height: 120px;
@@ -63,12 +63,14 @@ form input {
   letter-spacing: -0.005em;
   padding-left: 16px;
 }
+.form_svg {
+  cursor: pointer;
+}
 .right_arrow {
   position: absolute;
   top: 8px;
   right: 16px;
 }
-
 .b7_container {
   height: 376px;
   width: 100%;
