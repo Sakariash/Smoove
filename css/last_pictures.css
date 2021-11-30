@@ -5,6 +5,7 @@
 .last_picture img {
   width: 100%;
   transform: scale(1);
+  max-height: 100vh;
 }
 
 .last_picture {
