@@ -37,14 +37,17 @@
 }
 
 .hamburger.active .bar:nth-child(2) {
+  transition-duration: 0.5s;
   opacity: 0;
 }
 
 .hamburger.active .bar:nth-child(1) {
+  transition-duration: 1s;
   transform: translate(1px, 8px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
+  transition-duration: 1s;
   transform: translate(1px, -8px) rotate(-45deg);
 }
 
@@ -70,8 +73,14 @@
   color: var(--grey300);
 }
 ul picture {
-  padding-top: 120px;
-  padding-right: 70%;
+  position: absolute;
+  width: 90px;
+  left: 50px;
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .nav_item a {
@@ -144,7 +153,7 @@ ul picture {
 }
 
 @media only screen and (min-width: 1024px) {
-  ul picture {
+  /* ul picture {
     padding-right: 70%;
-  }
+  } */
 }
