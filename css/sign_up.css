@@ -1,5 +1,5 @@
 .sign_up_container {
-  min-height: 750px;
+  min-height: 600px;
   width: 100%;
   color: white;
 }
@@ -72,7 +72,6 @@ form input {
   right: 16px;
 }
 .b7_container {
-  height: 350px;
   width: 100%;
 }
 .b7_container img {
@@ -88,6 +87,9 @@ button {
   background: transparent;
 }
 @media only screen and (min-width: 768px) {
+  .sign_up_container {
+    min-height: 100px;
+  }
   .sign_up_flex {
     height: 450px;
     padding-top: 65px;
@@ -131,6 +133,9 @@ button {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .sign_up_container {
+    min-height: 1000px;
+  }
   .grid_2 img {
     position: absolute;
     height: 420px;
@@ -226,5 +231,11 @@ button {
   .b7_container img {
     object-fit: cover;
     object-position: bottom;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sign_up_container {
+    min-height: 1300px;
   }
 }
