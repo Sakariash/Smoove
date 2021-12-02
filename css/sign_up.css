@@ -80,9 +80,12 @@ form input {
   object-fit: fill;
   object-position: top;
 }
-
 .seven {
   display: none;
+}
+button {
+  border: none;
+  background: transparent;
 }
 @media only screen and (min-width: 768px) {
   .sign_up_flex {

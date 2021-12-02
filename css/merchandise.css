@@ -34,19 +34,55 @@
 .merch_text p {
   font-family: "aileron_light";
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   .merch_text {
     width: 270px;
+    left: 20px;
     bottom: 2px;
     font-family: "aileron_semibold";
+  }
+  .merch_text h2 {
+    font-size: 30px;
+  }
+  .merch_text p {
+    font-family: "aileron_light";
+    font-size: 13px;
+  }
+  @media screen and (min-width: 768px) {
+    .merch_text h2 {
+      font-size: 44px;
+    }
+    .merch_text p {
+      font-family: "aileron_light";
+      font-size: 15px;
+    }
+    .eight_mobile {
+      display: none;
+    }
+    .eight {
+      position: relative;
+      display: block;
+      height: 100%;
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
   }
 }
 @media screen and (min-width: 1024px) {
   .merch_text {
-    width: 270px;
-    bottom: 32px;
     left: 56px;
-    font-family: "aileron_semibold";
+  }
+  .eight_mobile {
+    display: none;
+  }
+  .eight {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
   }
 }
 
